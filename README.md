@@ -35,29 +35,6 @@ fun_fact: I enjoy turning enterprise backends into AI-powered products 🚀
 
 <br/>
 
-## 🏗️ How I Build AI-Integrated Platforms
-
-```mermaid
-graph TD
-  A[ReactJS SPA] -->|REST / WebSockets| B[Spring Boot Gateway]
-  B -->|JWT / OAuth2| C{Core Microservices}
-  C -->|Spring Data JPA| D[(PostgreSQL / MySQL)]
-  C -->|Cache & Sessions| E[(Redis)]
-  C -->|Spring AI| F[LLM APIs: Gemini / OpenAI]
-
-  subgraph Deployment
-    G[Docker] --- H[Kubernetes]
-  end
-  C --- G
-
-  classDef default fill:#111927,stroke:#00FFFF,stroke-width:1px,color:#fff;
-  classDef database fill:#1a103c,stroke:#bf4df0,stroke-width:1px,color:#fff;
-  classDef outer fill:#0c221f,stroke:#10b981,stroke-width:1px,color:#fff;
-
-  class A,B,C,F default;
-  class D,E database;
-  class G,H outer;
-```
 
 <br/>
 
